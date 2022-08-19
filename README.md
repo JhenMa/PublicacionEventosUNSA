@@ -5,6 +5,9 @@ A terse example of DDD-inspired architecture using Flask and SQLAlchemy and Mong
 
 
 setup.py --- Code Golf
+
 from blogex_app import Context
+
 if __name__ == "__main__":
+
     Context.setup()

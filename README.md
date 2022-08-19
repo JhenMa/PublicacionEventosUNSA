@@ -8,6 +8,4 @@ setup.py --- Code Golf
 
 from blogex_app import Context
 
-if __name__ == "__main__":
-
-    Context.setup()
+if __name__ == "__main__": Context.setup()

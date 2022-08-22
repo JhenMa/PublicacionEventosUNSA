@@ -1,7 +1,9 @@
 #!/usr/bin/python
 #-*- coding: utf-8 -*-
 
-class Administrador:
+from Usuario import Usuario
+
+class Administrador(Usuario):
     def __init__(self):
         self.id_admin = None
         self.Nombre = None

@@ -149,16 +149,14 @@ return data
 ## 3. L - Sustitución de Liskov:
   Este principio tiene como objetivo hacer cumplir la coherencia para que la Clase principal o su Clase secundaria se puedan     usar de la misma manera sin errores.
   Para aplicar este ejemplo todas  las clases que sean subtipos de una superclase , y esta misma debe incluir solo aquellos       métodos que comparten ambas subclases sin romper la lógica.
-  En nuestra superclase Usuario solo contiene aquellos métodos que comparten las subclases :Ponente y Asistente , ya  que el     ponente no tiene los mismos métodos que asistente y viceversa.
 
-    Super Clase Usuario:
+
+    Super Clase Evento:
   
-  ![L_Usuario](https://user-images.githubusercontent.com/82920949/185823531-e695240c-3752-42ed-a028-25a33e3e57c4.PNG)
+  
+  ![L_Usuario](https://github.com/JhenMa/PublicacionEventosUNSA/blob/main/Captura%20de%20pantalla%202022-08-22%20172141.png)
       
-    Sub Clase Asistente:
+    Sub Clase Conferencia:
   
-  ![L_Asistente](https://user-images.githubusercontent.com/82920949/185823749-cdfdfdc6-368f-4caa-8d9c-eb9ed240cd06.PNG)
+  ![L_Asistente](https://github.com/JhenMa/PublicacionEventosUNSA/blob/main/Captura%20de%20pantalla%202022-08-22%20172209.png)
 
-    Sub Clase Ponente:
-    
-   ![L_Ponentee](https://user-images.githubusercontent.com/82920949/185823791-6cf54861-1cd7-4f64-bf25-50f776a07483.PNG)

@@ -138,7 +138,7 @@ return data
 ## 1. S-Principio de Resposabilidad Única:
   Este principio tiene como objetivo separar los comportamientos para que, si surgen errores como resultado de su cambio, no         afecten otros comportamientos no relacionados.
   
-  ![https://github.com/JhenMa/PublicacionEventosUNSA/blob/main/Captura%20de%20pantalla%202022-08-22%20170556.png)
+  ![Responsabilidad_Unica](https://github.com/JhenMa/PublicacionEventosUNSA/blob/main/Captura%20de%20pantalla%202022-08-22%20170556.png)
 
 ## 2. O-Principio de Abierto-Cerrado:
   Este principio tiene como objetivo extender el comportamiento de una Clase sin cambiar el comportamiento existente de esa Clase.   Esto es para evitar causar errores dondequiera que se use la Clase.
